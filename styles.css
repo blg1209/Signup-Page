@@ -1,0 +1,22 @@
+body{
+      
+
+}
+#container{
+    display: flex;
+    flex-direction: row;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+.inside-col{
+    flex-direction: column;
+}
+.left-area{
+    background: url("./halie-west-25xggax4bSA-unsplash.jpg");
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 30vw;
+}
+.bottom-portion{
+    flex-direction: column;}
