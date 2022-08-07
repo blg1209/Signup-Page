@@ -1,10 +1,13 @@
+@font-face {
+    font-family: norse-bold;
+    src: url(./Norse-Bold.otf);
+}
 #content{
     display: flex;
     min-width: 100vw;
     min-height: 100vh;
     flex-flow: row wrap;
-    
-
+    font-family: 'Poppins';
 }
 .picture{
     display: flex;
@@ -12,7 +15,7 @@
     background-position: center;
     background-size: auto;
     background-repeat: no-repeat;
-    width: 40vw;
+    width: 30vw;
 }
 .logo{
     display: flex;
@@ -23,9 +26,13 @@
     top: 20vh;
     gap: 1vw;
     padding: 15px 0;
-
     justify-content: center;
     align-items: center;
+
+    font-family: norse-bold;
+    font-size: 15vh;
+    color: aliceblue;
+
 }
 img{
     height: 20vh;
@@ -34,12 +41,35 @@ img{
     display: flex;
     flex-direction: column;
     align-content: space-between;
-    
 }
-
+.inside-col h3{
+    padding: 2vw;
+}
+.form-area{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 2vw;
+}
+.form-row{
+    display: flex;
+    flex-flow: column wrap;
+    width: 40%;
+}
 .right-content, .bottom-portion{
     background-color: #F5F5F5;
 }
-
+.right-content{
+    font-weight: bold;
+    padding: 2vw;
+}
+input{
+    border: 1px solid grey;
+    border-radius: 3%;
+}
+input:focus{
+    border: 3px solid #555;
+}
 .bottom-portion{
-    flex-direction: column;}
+    flex-direction: column;
+    padding: 2vw;}
